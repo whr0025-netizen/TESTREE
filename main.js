@@ -1,3 +1,4 @@
+// Check if Phantom wallet is installed
 let provider = window.solana;
 let walletAddress = null;
 let connection = new solana.Web3.Connection(solana.clusterApiUrl('mainnet-beta'), 'confirmed');
