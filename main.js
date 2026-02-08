@@ -23,6 +23,7 @@ async function connectWallet() {
         fetchPercentReturn();
     } catch (err) {
         console.error("Wallet connection failed", err);
+        alert('Failed to connect Phantom Wallet!');
     }
 }
 
